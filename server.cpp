@@ -7,6 +7,7 @@
 #include <cstring>
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <unistd.h>
 
 std::mutex coutMutex; //used to synchronize std::cout among multiple threads
 
