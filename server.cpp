@@ -58,7 +58,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    std::cout<<"Server listening on port 8080...\n";
+    std::cout<<"Server listening on port 8080...\n"<<std::flush;
 
     while(true)
     {
