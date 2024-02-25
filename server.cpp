@@ -26,7 +26,7 @@ void handleClient(int clientSocket)
 int main() {
     int serverSocket, clientSocket;
     struct sockaddr_in serverAddr, clientAddr;
-    socketlen_t clientAddrLen = sizeof(cliendAddr);
+    socklen_t clientAddrLen = sizeof(clientAddr);
 
     //create socket
     serverSocket = socket(AF_INET, SOCK_STREAM, 0);
